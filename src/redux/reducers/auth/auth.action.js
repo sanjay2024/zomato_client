@@ -52,7 +52,7 @@ export const signOut = () => async (dispatch) => {
   try {
     localStorage.removeItem("zomatoUser");
     clearUser();
-    window.location.href = "https://dreamy-spence-a6fed7.netlify.app/delivery";
+    window.location.href = "https://boring-roentgen-a60a78.netlify.app/delivery";
 
     return dispatch({ type: SIGN_OUT, payload: {} });
   } catch (error) {
